@@ -14,7 +14,7 @@ This repository contains the custom files needed to reproduce the CM1 simulation
 - Remember to rename each file as input_sounding when using it in CM1.
 
 3) namelists
-- There are five namelist files: one for the isolated ensemble and one for each of the four separation distances. Use each namelist according which simulation you would like to reproduce.
+- There are five namelist files: one for the isolated ensemble and one for each of the four separation distances. Use each namelist according to which simulation you would like to reproduce.
 - Reminder to rename the namelist file as namelist.input
 
 The track_mesocyclones.py script tracks the mesocyclone(s) from a CM1 simulation. It outputs the location of the mesocyclone(s) at each CM1 output time, allowing statistics about a supercell/mesocyclone to be calculated from a mesocyclone-relative perspective.
