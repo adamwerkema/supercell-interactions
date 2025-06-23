@@ -1,15 +1,15 @@
 # supercell-interactions
 Code and data for Interactions Between Supercells in Multistorm Simulations
 
-This repository contains the custom files needed to reproduce the CM1 simulations usedin "Interactions Between Supercells in Multistorm Simulations". The files can be found in the /cm1_input directory:
+This repository contains the custom files needed to reproduce the CM1 simulations used in "Interactions Between Supercells in Multistorm Simulations". The files can be found in the /cm1_input directory:
 
 1) init3d.F files
-- There is a separate init3d.F file for each of the 16 multistorm simulations in the study (four separation distances x four separation angles)
-- The same init3d_isolated file can be used for each of the 8 isolated supercell simulations
-- Remember to rename each file as init3d.F when placing it in the /src directory in CM1
+- There is a separate init3d.F file for each of the 16 multistorm simulations in the study (four separation distances x four separation angles).
+- The same init3d_isolated file can be used for each of the 8 isolated supercell simulations.
+- Remember to rename each file as init3d.F when placing it in the /src directory in CM1.
 
 2) input soundings
-- The same input sounding is used for all of the 16 multistorm simulations. It is simply titled "inout_sounding"
+- The same input sounding is used for all of the 16 multistorm simulations. It is simply titled "input_sounding".
 - For the 8 isolated supercell ensemble, there are 7 perturbed input soundings. Use one for each supercell, along with the original input_sounding file for the 8th supercell.
 - Remember to rename each file as input_sounding when using it in CM1.
 
